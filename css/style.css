@@ -1,3 +1,9 @@
+.font-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 button {
     cursor: pointer;
     margin-left: 30%;
