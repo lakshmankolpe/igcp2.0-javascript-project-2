@@ -1,0 +1,57 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  }
+  .title{
+    font-size:45px;
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 30px 0px 50px;
+    border-bottom: 15px double pink;
+    
+  }
+  .main-container{
+    
+    width: 100%;
+  }
+  
+  .sub-container1{
+    height: 550px;
+    display: flex;
+    
+  }
+  
+  .product-card{
+    height: 470px;
+    width: 300px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 2px grey;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    cursor: pointer;
+  }
+ 
+    .shoes-img{
+      width: 250px;
+      margin: 0px 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+  
+  
+  .card-title{
+   text-align: center;
+  }
+  
+  
+  
+.brand-logo{
+    width: 80px;
+    height: 60px;
+    margin: 10px 110px ;
+}
