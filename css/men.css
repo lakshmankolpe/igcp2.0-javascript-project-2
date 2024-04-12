@@ -1,0 +1,40 @@
+
+body{
+  
+}
+.main-container{
+  height:1000px ;
+  background-color: tomato
+  ;
+}
+
+.sub-container1{
+  height: 550px;
+  background-color: aqua;
+  display: flex;
+}
+
+.product-card{
+  height: 500px;
+  width: 400px;
+  margin: 20px;
+  background-color:yellow;
+
+
+}
+.card-title{
+ text-align: center;
+ margin-bottom: 20px;
+}
+.shoes-img{
+  height: 350px;
+  margin: 0px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.button-explore{
+  padding: 5px 15px;
+  width: 100px;
+  display:flex ;
+  
+}
