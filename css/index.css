@@ -25,8 +25,12 @@ body {
   height: 400px;
 }
 .navbar-container{
+  width: 100%;
+  display: block;
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  position: fixed;
+  margin-bottom: 60px;
 }
 .input-container{
   position: relative;
@@ -129,6 +133,9 @@ body {
 .limited-offer{
   color:black;
 }
+ .img-container{
+ padding-top : 165px;
+} 
 .filter-img {
   width: 100%;
   height: 400px;
@@ -138,7 +145,8 @@ body {
 .close-shoe-img {
   width: 240px;
   height: 250px;
-  margin-left: 8px;
+  /* margin-left: 8px; */
+  border-radius: 18px;
 }
 
 
@@ -176,7 +184,10 @@ body {
   /* box-shadow: 0 0 1px 1px ; */
 }
 .container-explore-more{
-
+ display: flex;
+  
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .explore-more{
   width: 300px;
@@ -186,4 +197,55 @@ body {
   padding: 10px;
   background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
   border-radius: 50px 0px 50px 0px ;
+}
+.explore-card{
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}
+/* footer section */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  border: none;
+}
+.brand-logo{
+  width: 130px;
+  padding-top: 20px;
+}
+
+
+.hedding-container{
+  font-family: "Anta", sans-serif;  
+  display: inline-block;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding: 10px;
+ 
+  background-color: black;
+}
+.footer-heading{
+  color: white;
+  font-size: 13px;
+  padding-top: 40px;
+  
+}
+.social-media-image{
+  width: 20px;
+}
+
+.headding{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.address{
+  color: white;
+  
 }
