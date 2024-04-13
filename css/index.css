@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%);
 }
@@ -55,8 +56,18 @@ body {
   width: 100px;
   border-radius: 50px;
   margin-right: 10px;
+ 
 }
 
 .navbar-title {
   font-size: 20px;
+}
+.filter-img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.close-shoe-img{
+  width: 100px;
+  
 }
