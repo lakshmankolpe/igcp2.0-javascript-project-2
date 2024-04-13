@@ -25,7 +25,9 @@ body{
   .sub-container1{
     height: 550px;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   .product-card{
