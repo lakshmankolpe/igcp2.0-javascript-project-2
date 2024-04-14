@@ -240,7 +240,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
-  background: #17C3B2;
+  background: white;
   transition: .5s ease;
   display: block;
   z-index: -1;
@@ -296,4 +296,48 @@ body {
 .address{
   color: white;
   
+}
+/* For screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .input {
+    margin-left: 20px; 
+    width: 250px; 
+  }
+  .heading-img{
+    width: 90px;
+    height: 100px;
+  }
+  .navbar-title {
+    font-size: 16px; 
+    margin-right: 15px; 
+  }
+  .collection-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* For screens between 600px and 1200px */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .navbar-container {
+    padding: 5px; 
+  }
+
+  .button-login {
+    width: 6em; 
+    height: 40px; 
+  }
+}
+
+/* For screens larger than 1200px */
+@media screen and (min-width: 1201px) {
+  .navbar-container {
+    margin-bottom: 80px;
+  }
+
+  .heading-img {
+    height: 500px; 
+  }
 }
