@@ -44,3 +44,8 @@ button {
    button:hover::before {
     width: 100%;
    }
+
+   .product-name{
+    margin: 15px 55px;
+    
+   }
