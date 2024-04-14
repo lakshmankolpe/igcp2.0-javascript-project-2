@@ -8,10 +8,20 @@ body {
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%);
 }
 
+.bg-light{
+  
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234, 249, 249, 0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  color:black;
+}
+.bg-dark{
+  background-color: rgb(68, 67, 67);
+  height: 95vh;
+  color: white;
+}
 .navbar-container-top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   padding: 10px ;
   
 }
@@ -19,7 +29,15 @@ body {
   color: black;
   text-decoration: none;
 }
-
+.theme-container{
+  margin-left: 250px;
+}
+.theme-btn{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  
+}
 .heading-img {
   width: 100%;
   height: 400px;
@@ -36,7 +54,7 @@ body {
   position: relative;
 }
 .input {
-  margin-left: 280px;
+  margin-left: 380px;
   width: 350px;
   height: 40px;
   border: none;
@@ -58,6 +76,7 @@ body {
   width: 150px;
   background-color: azure;
   border-radius: 20px;
+  
   
 }
 .button-login {
@@ -83,7 +102,7 @@ body {
   border: none;
 }
 
-@keyframes ani {
+/* @keyframes ani {
   0% {
     background-position: 0%;
   }
@@ -91,7 +110,7 @@ body {
   100% {
     background-position: 400%;
   }
-}
+} */
 
 .button-login:before {
   content: "";
@@ -127,6 +146,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  margin-left: 350px;
 
 }
 
