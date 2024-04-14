@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+ 
+  
+}
+.title{
+  font-size:45px;
+  
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);;
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+   border-radius: 30px 30px 0px 50px;
+    border-bottom: 15px double pink;
+
+  
+}
+
+.app-container {
+  background-color: white;
+  box-shadow: 4px 4px 10px 2px grey;
+  height: 570px;
+  width: 350px;
+  padding: 10px;
+ border-radius: 10px;
+ margin: 40px;
+ background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.main-container{
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.watch-image {
+  height: 250px;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.product-title {
+  font-size: 23px;
+  text-align: center;
+  color: #13547a;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-discription {
+  color: black;
+ 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.price-text {
+  color: #13547a;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  padding: 3px 5px;
+  width: 40px;
+  color: white;
+
+  
+}
+
+.button:hover {
+  box-shadow: 0px 0px 5px 1px#7bc1ea;
+  cursor: pointer;
+}
+
+
+.icon {
+  height: 18px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.buy-button {
+  padding: 8px 15px;
+  width: 100px;
+  
+  margin-left: 0px;
+  background-color: #13547a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.buy-button:hover {
+  box-shadow: 0px 0px 5px 1px #7bc1ea;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+.by-add-btn-container{
+  
+ height: 33px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.card-button{
+  
+  padding: 8px 15px;
+  width: 100px;
+  
+  background-color: #13547a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+
+}
+.card-button:hover {
+  box-shadow: 0px 0px 5px 1px #7bc1ea;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.quantitynumber {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-container {
+
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  
+}

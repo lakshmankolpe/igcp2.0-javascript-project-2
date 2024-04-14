@@ -7,7 +7,7 @@ body{
 .title{
   font-size:45px;
   
-    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);;
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);;
     width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -52,6 +52,7 @@ margin-top: 5px;
 
 .card-title{
  text-align: center;
+ height: 50px;
 }
 
 
