@@ -43,26 +43,38 @@
     <div class="main-container">
         <div class="sub-container2">
             <div class="product-card2 font-regular">
-                <img src="../image/women-shoes/nike/air-max-plus-shoes-SWRML.png" class="shoes-img2">
+                <img src="../image/women-shoes/nike/air-max-plus-shoes-SWRML.png" class="shoes-img2" id="shoes">
 
-                <img src="../image/next-button.png" onclick="next()" class="btn-next" id="forward" alt="">
                 <h4 class="product-name2">Air max plus <br>
                     plus shoes</h4>
 
                 <span class="price font-regular " id="pricetext">Price = 1500/- </span>
                 <button class="button-explore btn-buy">Buy Now !</button>
+                <div class="image-categories">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-1.png" onclick="front()" class="btn-next" alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-2 .png" onclick="second()" class="btn-next"  alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-3.png" onclick="third()" class="btn-next"  alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-4.png" onclick="forth()" class="btn-next"  alt="">
+
+                </div>
 
             </div>
 
             <div class="product-card2 font-regular">
                 <img src="../image/women-shoes/nike/b-air-max-sc-png.png" class="shoes-img2">
 
-                <img src="../image/next-button.png" onclick="" class="btn-next" id="forward" alt="">
                 <h4 class="product-name2">Air max plus <br>
                     plus shoes</h4>
 
                 <span class="price font-regular " id="pricetext">Price = 1500/- </span>
                 <button class="button-explore btn-buy">Buy Now !</button>
+                <div class="image-categories">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-1.png" onclick="shoes1()" class="btn-next" alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-2 .png" onclick="()" class="btn-next"  alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-3.png" onclick="third()" class="btn-next"  alt="">
+                    <img src="../image/women-shoes/nike/air-max-plus-shoes-4.png" onclick="forth()" class="btn-next"  alt="">
+
+                </div>
 
             </div>
 
@@ -95,32 +107,33 @@
     </div>
     <script src="https://kit.fontawesome.com/66557d59bf.js" crossorigin="anonymous"></script>
     <script>
-        function next() {
-            const min = 1
-            const max = 4
+        // function next() {
+        //     const min = 1
+        //     const max = 4
 
-            const randomNumber = Math.round(Math.random() * (max - min) + min);
-            console.log(randomNumber)
+        //     const randomNumber = Math.round(Math.random() * (max - min) + min);
+        //     console.log(randomNumber)
  
-            const forward = document.getElementById('forward')
+        //     const forward = document.getElementById('forward')
 
-            switch (randomNumber) {
-                case 1: 
-                   forward.src = "../img/women-shoes/nike/air-max-plus-1.png";
-                    break;
+        //     switch (randomNumber) {
+        //         case 1: 
+        //            forward.src = "../img/women-shoes/nike/air-max-plus-1.png";
+        //             break;
 
-                case 2: forward.src = "../img/women-shoes/nike/air-max-plus-2.png";
-                    break;
+        //         case 2: forward.src = "../img/women-shoes/nike/air-max-plus-2.png";
+        //             break;
 
-                case 3: forward.src = "../img/women-shoes/nike/air-max-plus-3.png";
-                    break;
+        //         case 3: forward.src = "../img/women-shoes/nike/air-max-plus-3.png";
+        //             break;
 
-                case 4: forward.src = "../img/women-shoes/nike/air-max-plus-4.png";
-                    break;
+        //         case 4: forward.src = "../img/women-shoes/nike/air-max-plus-4.png";
+        //             break;
 
-            }
-        }
-    </script>
+        //     }
+        // }
+    // </script>
+    <script src="../javascript/brand-card.js"></script>
 </body>
 
 </html>
