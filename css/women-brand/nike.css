@@ -9,7 +9,7 @@
 }
 
 .product-card2 {
-    height: 500px;
+    height: 550px;
     width: 300px;
     margin: 40px;
     border-radius: 10px;
@@ -19,7 +19,8 @@
 }
 
 .product-name2{
-    text-align: center;
+    text-align: center; 
+    margin-top: 50px;
 }
 
 .shoes-img2 {
@@ -27,6 +28,11 @@
     margin: 0px 20px;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.btn-next{
+    width: 11%;
+    margin: 10px 8px;
 }
 
 .price {
@@ -40,5 +46,10 @@
 }
  .btn-buy{
     margin-top: 4.5%;
-    margin-left: 22%;
+    margin-left: 25%;
+ }
+
+ .image-categories{
+    margin-top: -190px;
+    margin-left: 50px;
  }
