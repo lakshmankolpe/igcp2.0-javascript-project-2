@@ -1,0 +1,17 @@
+.login-container{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.search-bar{
+    padding: 8px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left:30px;
+    border-radius: 10px;
+}
+.login-heading{
+   
+}
